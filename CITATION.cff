@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use or discuss this work, please cite the working thesis."
+title: "Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI"
+type: report
+authors:
+  - family-names: Flynn
+    given-names: Sam
+version: 1.0.1
+date-released: 2026-07-30
+license: CC-BY-NC-ND-4.0
+institution:
+  name: Dark Science Division
+abstract: >-
+  A working architectural thesis proposing two external adversarial
+  supervisory loops that regulate the evolving project-level trajectory
+  of an otherwise unchanged autonomous AI system against a versioned,
+  human-authorized trajectory contract.
+keywords:
+  - autonomous agents
+  - long-horizon AI
+  - multi-model orchestration
+  - adversarial debate
+  - goal drift
+  - supervisory control
+  - runtime assurance
+  - project trajectory
+  - human governance

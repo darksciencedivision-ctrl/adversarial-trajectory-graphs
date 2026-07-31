@@ -1,0 +1,12 @@
+digraph Cycle {
+  graph [rankdir=LR, bgcolor="white", pad="0.2", nodesep="0.35", ranksep="0.45", fontname="DejaVu Sans"];
+  node [shape=box, style="rounded", fontname="DejaVu Sans", fontsize=10, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=9, arrowsize=0.75];
+  observe [label="1. Observe\nCapture project state and evidence"];
+  compare [label="2. Compare\nAgainst trajectory contract"];
+  challenge [label="3. Adversarial challenge\nMission and integrity loops"];
+  decide [label="4. Decide\nClassify deviation and confidence"];
+  correct [label="5. Correct\nIssue bounded intervention"];
+  verify [label="6. Verify recovery\nMeasure return to corridor"];
+  observe -> compare -> challenge -> decide -> correct -> verify -> observe;
+}

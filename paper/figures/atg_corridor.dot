@@ -1,0 +1,27 @@
+digraph Corridor {
+  graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.3", ranksep="0.5", splines=polyline, fontname="DejaVu Sans"];
+  node [shape=circle, width=0.22, fixedsize=true, label="", fontname="DejaVu Sans"];
+  edge [arrowsize=0.7, penwidth=1.3];
+
+  in [shape=box, style="rounded", width=0.8, height=0.35, fixedsize=false, label="Input"];
+  out [shape=box, style="rounded", width=1.0, height=0.35, fixedsize=false, label="Completed work"];
+
+  a1; a2; a3; a4; a5; a6; a7; a8;
+  u1 [shape=point, width=0.01]; u2 [shape=point, width=0.01]; u3 [shape=point, width=0.01]; u4 [shape=point, width=0.01];
+  l1 [shape=point, width=0.01]; l2 [shape=point, width=0.01]; l3 [shape=point, width=0.01]; l4 [shape=point, width=0.01];
+  drift [shape=diamond, width=0.35, height=0.35, label="drift", fontsize=8];
+  correction [shape=box, style="rounded", fixedsize=false, label="course correction", fontsize=9];
+
+  in -> a1 -> a2 -> a3 -> a4 -> a5 -> a6 -> a7 -> a8 -> out [label="actual project path", fontname="DejaVu Sans", fontsize=9];
+  a3 -> drift [style=dashed, label="premature exit", fontname="DejaVu Sans", fontsize=8];
+  drift -> correction [style=dashed];
+  correction -> a4 [style=dashed, label="return", fontname="DejaVu Sans", fontsize=8];
+
+  u1 -> u2 -> u3 -> u4 [style=dashed, arrowhead=none, label="upper corridor boundary", fontname="DejaVu Sans", fontsize=8];
+  l1 -> l2 -> l3 -> l4 [style=dashed, arrowhead=none, label="lower corridor boundary", fontname="DejaVu Sans", fontsize=8];
+
+  {rank=same; u1; in; l1}
+  {rank=same; u2; a3; drift; l2}
+  {rank=same; u3; a6; l3}
+  {rank=same; u4; out; l4}
+}

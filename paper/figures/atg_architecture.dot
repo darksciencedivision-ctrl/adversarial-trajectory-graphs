@@ -1,0 +1,44 @@
+digraph ATG {
+  graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.45", ranksep="0.55", fontname="DejaVu Sans"];
+  node [shape=box, style="rounded", fontname="DejaVu Sans", fontsize=11, margin="0.12,0.08"];
+  edge [fontname="DejaVu Sans", fontsize=9, arrowsize=0.75];
+
+  operator [label="Human operator authority\nObjective, scope, constraints, acceptance criteria", penwidth=1.5];
+  contract [label="Versioned trajectory contract", penwidth=1.3];
+
+  subgraph cluster_atg {
+    label="External Adversarial Trajectory Graph layer";
+    fontsize=13;
+    style="rounded,dashed";
+    penwidth=1.5;
+    mission [label="Mission adversary\nGoal, scope, priority, completion"];
+    integrity [label="Integrity adversary\nConstraints, evidence, dependencies, honesty"];
+    observer [label="Observation and evidence plane\nProject states, artifacts, logs, ledgers"];
+    arbiter [label="Correction arbiter\nContinue | Warn | Redirect | Defer | Pause | Halt"];
+    observer -> mission;
+    observer -> integrity;
+    mission -> arbiter [label="independent assessment"];
+    integrity -> arbiter [label="independent assessment"];
+  }
+
+  subgraph cluster_system {
+    label="Controlled autonomous system (unchanged internally)";
+    fontsize=13;
+    style="rounded";
+    penwidth=1.5;
+    planner [label="Planning and decomposition"];
+    debate [label="Internal adversarial debates"];
+    research [label="Research, tools, retrieval, memory"];
+    execution [label="Execution, synthesis, validation"];
+    planner -> debate -> research -> execution;
+  }
+
+  output [label="Accepted completed work\nplus audit trail", penwidth=1.5];
+
+  operator -> contract;
+  contract -> observer [label="reference trajectory"];
+  execution -> observer [label="observable project state"];
+  arbiter -> planner [label="bounded course correction", penwidth=1.4];
+  execution -> output;
+  output -> operator [label="accept, revise, or reject"];
+}
