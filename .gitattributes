@@ -1,0 +1,4 @@
+# Preserve byte-exact contents so SHA256SUMS.txt verifies on every platform.
+# Without this, cloning on a machine with core.autocrlf=true rewrites LF to CRLF
+# on checkout and every manifest entry fails.
+* -text
