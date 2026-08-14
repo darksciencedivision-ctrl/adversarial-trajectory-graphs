@@ -3,8 +3,8 @@ message: "If you use or discuss this work, please cite the working thesis."
 title: "Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI"
 type: report
 authors:
-  - family-names: Flynn
-    given-names: Sam
+  - family-names: Lawson
+    given-names: Samuel
 version: 1.0.1
 date-released: 2026-07-30
 license: CC-BY-NC-ND-4.0

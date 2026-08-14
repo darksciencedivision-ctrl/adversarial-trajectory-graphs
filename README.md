@@ -22,7 +22,7 @@ Their findings are reconciled into bounded actions such as continue, warn, redir
 - Conceptual and engineering proposal
 - Not peer reviewed
 - Empirical validation pending
-- Originating concept and project direction: **Sam Flynn**
+- Originating concept and project direction: **Samuel Lawson**
 - Research program: **Dark Science Division**
 
 This repository does not claim that ATG creates consciousness, sentience, artificial general intelligence, guaranteed alignment, or guaranteed safety. The thesis specifies falsifiable hypotheses, failure conditions, and an experimental program intended to determine whether ATG materially reduces long-horizon project drift without suppressing productive exploration.
@@ -54,8 +54,8 @@ SHA256SUMS.txt
 
 ## Citation
 
-Flynn, Sam. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0, Dark Science Division, July 2026.
+Lawson, Samuel. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0, Dark Science Division, July 2026.
 
 ## Licensing
 
-Copyright (c) 2026 Sam Flynn. Licensed under **CC BY-NC-ND 4.0** (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International). The work may be shared in unmodified form with attribution; commercial use and derivatives require written permission. See [LICENSE.md](LICENSE.md).
+Copyright (c) 2026 Samuel Lawson. Licensed under **CC BY-NC-ND 4.0** (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International). The work may be shared in unmodified form with attribution; commercial use and derivatives require written permission. See [LICENSE.md](LICENSE.md).

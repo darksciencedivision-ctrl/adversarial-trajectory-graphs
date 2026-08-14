@@ -2,7 +2,7 @@
 
 **Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI**
 
-Copyright (c) 2026 Sam Flynn (Dark Science Division). All rights not expressly granted below are reserved.
+Copyright (c) 2026 Samuel Lawson (Dark Science Division). All rights not expressly granted below are reserved.
 
 This work (the thesis, README, figures, and original concept sketch) is licensed under the
 **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
@@ -13,7 +13,7 @@ Under this license you are free to:
 
 Under the following terms:
 
-- **Attribution (BY)** — You must give appropriate credit to Sam Flynn, provide a link to this
+- **Attribution (BY)** — You must give appropriate credit to Samuel Lawson, provide a link to this
   license, and indicate if any changes were made. You may not do so in any way that suggests
   the author endorses you or your use.
 - **NonCommercial (NC)** — You may not use the material for commercial purposes.

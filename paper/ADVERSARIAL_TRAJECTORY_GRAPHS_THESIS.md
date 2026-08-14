@@ -1,11 +1,11 @@
 ---
 title: "Adversarial Trajectory Graphs"
 subtitle: "External Adversarial Supervision for Long-Horizon Autonomous AI"
-author: "Sam Flynn"
+author: "Samuel Lawson"
 date: "July 2026 --- Working Thesis v1.0.1"
 version: "Working Thesis v1.0.1"
 status: "Research proposal - not peer reviewed"
-rights: "Copyright 2026 Sam Flynn. Licensed under CC BY-NC-ND 4.0."
+rights: "Copyright 2026 Samuel Lawson. Licensed under CC BY-NC-ND 4.0."
 affiliation: "Dark Science Division"
 geometry: margin=1in
 fontsize: 11pt
@@ -54,7 +54,7 @@ The term **trajectory graph** is already used elsewhere, including reinforcement
 
 ## Contribution and Provenance Statement
 
-The concept originated with **Sam Flynn** in a hand-drawn diagram dated July 29, 2026. The diagram showed a trajectory from input to completed work, with two adversarial loops outside the course and repeated points of contact along the route. Flynn clarified that the loops were not additional debate participants inside the project. They were external structures that would detect when an autonomous system drifted, took an unauthorized exit, or became absorbed in an advanced subsystem before completing the machine it was supposed to build. He described the loops as lighthouses steering a ship back toward its authorized course.
+The concept originated with **Samuel Lawson** in a hand-drawn diagram dated July 29, 2026. The diagram showed a trajectory from input to completed work, with two adversarial loops outside the course and repeated points of contact along the route. Lawson clarified that the loops were not additional debate participants inside the project. They were external structures that would detect when an autonomous system drifted, took an unauthorized exit, or became absorbed in an advanced subsystem before completing the machine it was supposed to build. He described the loops as lighthouses steering a ship back toward its authorized course.
 
 Through iterative human-AI discussion, the concept was developed into the following formal distinctions:
 
@@ -68,7 +68,7 @@ Through iterative human-AI discussion, the concept was developed into the follow
 
 The AI assistant contributed literature synthesis, terminology refinement, formalization, failure analysis, and drafting. The originating concept, research direction, objectives, and final authority remain with the human author. The paper treats AI assistance as a research tool, not as independent evidence and not as a substitute for author responsibility.
 
-![Original concept sketch: input-to-output trajectory with two external adversarial loops. Concept and sketch by Sam Flynn, July 29, 2026.](figures/original_concept_sketch.jpg){width=78%}
+![Original concept sketch: input-to-output trajectory with two external adversarial loops. Concept and sketch by Samuel Lawson, July 29, 2026.](figures/original_concept_sketch.jpg){width=78%}
 
 ---
 
@@ -312,7 +312,7 @@ The original sketch contained four essential elements:
 3. a trajectory connecting them;
 4. two adversarial loops outside the trajectory that repeatedly contact and redirect the course.
 
-The initial interpretation could have treated the loops as debate agents challenging intermediate answers. Flynn rejected that interpretation. The loops were not participants in the work. They existed outside the whole project and steered it.
+The initial interpretation could have treated the loops as debate agents challenging intermediate answers. Lawson rejected that interpretation. The loops were not participants in the work. They existed outside the whole project and steered it.
 
 This clarification produced the defining architectural principle:
 
@@ -320,7 +320,7 @@ This clarification produced the defining architectural principle:
 
 ## 3.2 The lighthouse analogy
 
-Flynn described the outer loops as lighthouses for ships. The analogy captures several properties:
+Lawson described the outer loops as lighthouses for ships. The analogy captures several properties:
 
 - the lighthouse does not sail the ship;
 - it does not choose every maneuver;
@@ -1100,7 +1100,7 @@ trajectory_contract:
   contract_id: sovereign-boot-validation-v1
   version: 1.0.0
   authority:
-    operator: Sam Flynn
+    operator: Samuel Lawson
     autonomous_scope_changes_allowed: false
 
   objective:
@@ -1813,7 +1813,7 @@ ATG contributes one possible component: preservation of long-horizon mission coh
 
 ## 12.2 Functional simulation and external equivalence
 
-Flynn's broader hypothesis is that a sufficiently strong model inside an architecture designed for persistent self-modeling, self-continuation, autonomy, adaptation, and self-regulation could simulate sentient behavior so closely that the practical outcome may become indistinguishable from what society calls a digital mind.
+Lawson's broader hypothesis is that a sufficiently strong model inside an architecture designed for persistent self-modeling, self-continuation, autonomy, adaptation, and self-regulation could simulate sentient behavior so closely that the practical outcome may become indistinguishable from what society calls a digital mind.
 
 This claim contains at least three separable propositions:
 
@@ -2365,13 +2365,13 @@ Recommended repository status labels:
 
 # Appendix F. Suggested Citation
 
-Flynn, Sam. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0, Dark Science Division, July 2026.
+Lawson, Samuel. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0, Dark Science Division, July 2026.
 
 BibTeX:
 
 ```bibtex
-@techreport{flynn2026atg,
-  author      = {Sam Flynn},
+@techreport{lawson2026atg,
+  author      = {Samuel Lawson},
   title       = {Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI},
   institution = {Dark Science Division},
   year        = {2026},
@@ -2382,7 +2382,7 @@ BibTeX:
 }
 ```
 
-**License.** Copyright 2026 Sam Flynn. This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). The work may be shared in unmodified form with attribution to the author. Commercial use and derivative works require separate written permission from the author. License text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
+**License.** Copyright 2026 Samuel Lawson. This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0). The work may be shared in unmodified form with attribution to the author. Commercial use and derivative works require separate written permission from the author. License text: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 ---
 

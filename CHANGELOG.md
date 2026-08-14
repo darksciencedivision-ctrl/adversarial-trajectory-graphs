@@ -1,5 +1,10 @@
 # Changelog
 
+## v1.0.2 - 2026-08-13
+
+- Author attribution corrected to Samuel Lawson per the program registry decision.
+
+
 ## v1.0.1 - 2026-07-30
 
 Pre-publication corrections following independent verification review.
