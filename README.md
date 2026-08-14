@@ -18,7 +18,7 @@ Their findings are reconciled into bounded actions such as continue, warn, redir
 
 ## Research status
 
-- Working Thesis v1.0.1
+- Working Thesis v1.0.2
 - Conceptual and engineering proposal
 - Not peer reviewed
 - Empirical validation pending
@@ -50,11 +50,12 @@ CITATION.cff
 CHANGELOG.md
 LICENSE.md
 SHA256SUMS.txt
+VERIFYING.md
 ```
 
 ## Citation
 
-Lawson, Samuel. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0, Dark Science Division, July 2026.
+Lawson, Samuel. *Adversarial Trajectory Graphs: External Adversarial Supervision for Long-Horizon Autonomous AI*. Working Thesis v1.0.2, Dark Science Division, August 2026.
 
 ## Licensing
 
